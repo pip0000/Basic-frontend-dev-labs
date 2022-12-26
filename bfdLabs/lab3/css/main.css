@@ -1,0 +1,294 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+.container {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 3%;
+}
+
+header {
+	background: #87509c;
+	padding: 50px 0 145px 0;
+	text-align: center;
+	width: 100%;
+}
+
+header h1 {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+.main-nav {
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+
+.main-nav ul {
+	margin: 0;
+	list-style: none;
+}
+
+.main-nav li {
+	display: inline-block;
+	padding: 0 0.7%;
+}
+
+.main-nav a:link,
+.main-nav a:visited {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	color: #fff;
+	padding: 11px 15px;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+	background: #643a79;
+	border-radius: 3px;
+}
+
+header p {
+	clear: both;
+	display: inline-block;
+	font-size: 4rem;
+	font-weight: bold;
+	color: #fff;
+	width: 100%;
+	margin: 140px 0 50px 0;
+}
+
+.heading-button:link,
+.heading-button:visited {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	background: #eb7d4b;
+	color: #fff;
+	padding: 25px 85px;
+	border-radius: 4px;
+}
+
+.heading-button:hover {
+	background: #dd7546;
+}
+
+#portfolio {
+	text-align: center;
+	color: #393939;
+	font-size: 1.8rem;
+	background: #ffdd99;
+	padding: 115px 0 110px 0;
+	box-sizing: border-box;
+}
+
+#portfolio h2 {
+	text-transform: uppercase;
+	font-size: 4rem;
+	margin: 0 auto;
+}
+
+#portfolio-desc {
+	padding: 0 20%;
+	margin: 0 auto;
+}
+
+#portfolio img {
+	margin: 20px 0;
+}
+
+.portfolio-nav {
+	padding: 35px 0 58px 0;
+}
+
+.portfolio-nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.portfolio-nav li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.portfolio-nav a:link,
+.portfolio-nav a:visited {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	background: #ebc985;
+	color: #393939;
+	border-radius: 4px;
+}
+
+.portfolio-nav a.active {
+	background: #fff;
+}
+
+.portfolio-nav a:hover {
+	background: #fff;
+}
+
+.portfolio-projects {
+	width: 100%;;
+	margin: 0 auto;
+}
+
+.portfolio-projects figure {
+	float: left;
+	width: 46%;
+	margin: 0 2% 60px 2%;
+	box-sizing: border-box;
+}
+
+.portfolio-projects img {
+	width: 100%;
+	margin: 0 0 25px 0;
+}
+
+.portfolio-projects figcaption {
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.portfolio-projects a:link, a:visited {
+	display: inline-block;
+	background: #17c2a4;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: 600;
+	padding: 27px 58px 27px;
+	margin-top: 20px;
+	border-radius: 4px;
+}
+
+.portfolio-projects a:hover {
+	background: #14b397;
+}
+
+.in-touch {
+	background: #3c5499;
+	color: white;
+	text-align: center;
+	padding: 120px 20px 114px 20px ;
+}
+
+.in-touch h2 {
+	font-size: 4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+.in-touch img {
+	margin: 20px 0;
+}
+
+.in-touch p {
+	font-size: 1.8rem;
+	margin: 0 auto 10px;
+}
+
+.cust-form {
+	width: 80%;
+	font-size: 1.8rem;
+	text-align: center;
+	margin: 75px auto 0 auto;
+}
+
+.cust-form input[type=text] {
+	width: 37%;
+	background: #273a71;
+	border: 1px solid #3c5499;
+	color: #fff;
+	padding: 15px 2% 12px 2%;
+	margin: 0 auto;
+}
+
+.cust-form input[type=text]:focus::-webkit-input-placeholder,
+.cust-form textarea:focus::-webkit-input-placeholder{
+	color: transparent;
+}
+
+::-webkit-input-placeholder, ::-webkit-textarea-placeholder {
+	color: #fff;
+}
+
+.cust-form input:first-child {
+	margin-right: 1%;
+}
+
+.cust-form textarea {
+	display: block;
+	width: 76%;
+	height: 200px;
+	background: #273a71;
+	border: 1px solid #3c5499;
+	resize: none;
+	margin: 23px auto 0 auto;
+	padding: 15px 2% 12px 2%;
+}
+
+.cust-form input[type=submit],
+.cust-form input[type=submit]:visited {
+	background: #30bae7;
+	font-size: 1.8rem;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 20px 90px;
+	margin: 60px 0 0 0;
+	border: 1px solid #30bae7;
+	border-radius: 3px;
+}
+
+.cust-form input[type=submit]:hover {
+	background: #2daed8;
+}
+
+footer {
+	width: 100%;
+	background: #344b8e;
+	color: #fff;
+	text-align: center;
+	padding: 45px 0 32px 0;
+}
+
+.footer-nav ul {
+	list-style: none;
+}
+
+.footer-nav li {
+	display: inline;
+	padding: 0 2% 0 2%;
+}
+
+.footer-nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 2.4rem;
+	font-weight: 500;
+}
